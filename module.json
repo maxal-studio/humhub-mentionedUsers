@@ -1,0 +1,11 @@
+{
+  "id": "userMentioned",
+  "name": "Mentioned Users",
+  "description": "Share content to mentioned users profile",
+  "keywords": [],
+  "version": "1.0.1",
+  "humhub": {
+    "minVersion": "1.1"
+  },
+  "screenshots": ["assets/screen1.png"]
+}
