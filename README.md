@@ -9,7 +9,7 @@ This module will create another wall entry that will be displayed to each of the
 ## Installation
 
   - Clone this repository inside your Humhub Directory/protected/modules
-  - Rename this directory to : mentioned users
+  - Rename this directory to : mentionedUsers
   - Log In as Administrator
   - Navigate to Administration menu / Modules / Mentioned Users and click enable
 
