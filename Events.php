@@ -28,9 +28,7 @@ class Events extends BaseObject
         $content = $event->sender->content;
         $contend_id = $event->sender->content->id;
 
-
-        // $post = $event->sender->object;
-        if ($content->getContentName() == "post") {
+        if ($content->getModel()->wallEntryClass == 'humhub\modules\post\widgets\WallEntry') {
             $post = $content->getPolymorphicRelation();
 
             //Get Mentioned Users
